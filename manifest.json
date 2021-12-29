@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "比特币实时价格",
+    "version": "1.0",
+    "description": "Get Bitcoin Price",
+    "author": "sinian",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.baidu.com/*"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "inject.js"
+    ]
+}
