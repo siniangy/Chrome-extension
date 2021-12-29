@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "一首小诗",
+    "version": "1.0",
+    "description": "Build a demo extension",
+    "author": "sinian",
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
